@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241815B323E4C69600BEDA35 /* QuizForRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241815B223E4C69600BEDA35 /* QuizForRealm.swift */; };
+		241F3C30222C786F00E2EA5D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F3C2F222C786F00E2EA5D /* User.swift */; };
+		241F3C32222C9FF400E2EA5D /* QuestionBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F3C31222C9FF400E2EA5D /* QuestionBankViewController.swift */; };
+		243104A9222A07CD0021CC3A /* Modules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243104A8222A07CD0021CC3A /* Modules.swift */; };
+		243104AB222A07D90021CC3A /* Chapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243104AA222A07D90021CC3A /* Chapters.swift */; };
+		24426ECC217593F600A4A466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24426ECB217593F600A4A466 /* AppDelegate.swift */; };
+		24426ECE217593F600A4A466 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24426ECD217593F600A4A466 /* QuestionViewController.swift */; };
+		24426ED1217593F600A4A466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24426ECF217593F600A4A466 /* Main.storyboard */; };
+		24426ED3217593F700A4A466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24426ED2217593F700A4A466 /* Assets.xcassets */; };
+		24426ED6217593F700A4A466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24426ED4217593F700A4A466 /* LaunchScreen.storyboard */; };
+		24426EE221759A4300A4A466 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24426EE121759A4300A4A466 /* Quiz.swift */; };
+		2454ED89222877FC00146EBB /* ModulesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2454ED88222877FC00146EBB /* ModulesTableViewController.swift */; };
+		2454ED8B2228781300146EBB /* ChaptersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2454ED8A2228781300146EBB /* ChaptersTableViewController.swift */; };
+		2454ED8D2228793600146EBB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2454ED8C2228793600146EBB /* WelcomeViewController.swift */; };
+		2454ED8F2228794E00146EBB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2454ED8E2228794E00146EBB /* LoginViewController.swift */; };
+		2454ED912228795900146EBB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2454ED902228795900146EBB /* RegisterViewController.swift */; };
+		2454ED932228A54200146EBB /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2454ED922228A54200146EBB /* AdminViewController.swift */; };
+		2464D7351D30490822BB06E1 /* Pods_VoicED_College_Counseling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28608B9C40134EE0D2FC64A0 /* Pods_VoicED_College_Counseling.framework */; };
+		246667572406E60D00583033 /* SettingsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246667562406E60D00583033 /* SettingsCollectionViewController.swift */; };
+		246743C621961C0600FB69A6 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 246743C421961C0600FB69A6 /* ProgressHUD.bundle */; };
+		246DA79823E8A99C005732C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 246DA79723E8A99C005732C3 /* Default-568h@2x.png */; };
+		246DA79A23E8CC61005732C3 /* ChatValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246DA79923E8CC61005732C3 /* ChatValidationViewController.swift */; };
+		246DA79C23ECB2A2005732C3 /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246DA79B23ECB2A2005732C3 /* KeyChainService.swift */; };
+		246DA7A023ECCF80005732C3 /* QuizValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246DA79F23ECCF80005732C3 /* QuizValidationViewController.swift */; };
+		247C424E235E661700D18E05 /* PlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C424D235E661700D18E05 /* PlannerViewController.swift */; };
+		248625C623B6CAB2008ABBA0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248625C523B6CAB2008ABBA0 /* Constants.swift */; };
+		248BA3B823394B0200465D26 /* RouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248BA3B723394B0200465D26 /* RouletteViewController.swift */; };
+		248DA9D423FDEB82009C7060 /* ModuleRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248DA9D323FDEB82009C7060 /* ModuleRealmData.swift */; };
+		248DA9D623FE4D97009C7060 /* ChapterRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248DA9D523FE4D97009C7060 /* ChapterRealmData.swift */; };
+		249C472E2334749B00257188 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249C472D2334749B00257188 /* ChatViewController.swift */; };
+		249C473823349A6800257188 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249C473623349A6800257188 /* CustomMessageCell.swift */; };
+		249C473B2335643600257188 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249C473A2335643600257188 /* Message.swift */; };
+		24AB73C62407330500B95D3B /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB73C52407330500B95D3B /* ProfileTableViewController.swift */; };
+		24AB73C8240734AC00B95D3B /* ProfileRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB73C7240734AC00B95D3B /* ProfileRealmData.swift */; };
+		24AB73CA2407372E00B95D3B /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB73C92407372E00B95D3B /* Profiles.swift */; };
+		24AB73CC2407472700B95D3B /* ProfileDocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AB73CB2407472700B95D3B /* ProfileDocViewController.swift */; };
+		24B2D30923D369F6007D50FD /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B2D30723D3683D007D50FD /* LocalAuthentication.framework */; };
+		24B2D30F23D51056007D50FD /* ExportPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2D30E23D51056007D50FD /* ExportPlanner.swift */; };
+		24B2D31123D511DE007D50FD /* PlannerRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2D31023D511DE007D50FD /* PlannerRealmData.swift */; };
+		24C7A3CF240B387D005FA2CC /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C7A3CE240B387D005FA2CC /* PopUpViewController.swift */; };
+		24C915C224044EFF0030FB8A /* BackgroundCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C915C024044EFF0030FB8A /* BackgroundCollectionViewController.swift */; };
+		24C915C324044EFF0030FB8A /* BackgroundCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C915C124044EFF0030FB8A /* BackgroundCollectionViewController.xib */; };
+		24C915C524044F6D0030FB8A /* BackgroundCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C915C424044F6D0030FB8A /* BackgroundCollectionCell.swift */; };
+		24C952BC23FC7BBF0053F435 /* ResourcesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C952BB23FC7BBF0053F435 /* ResourcesTableViewController.swift */; };
+		24C952BE23FC7BD60053F435 /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C952BD23FC7BD60053F435 /* SectionsViewController.swift */; };
+		24C952C023FCBC200053F435 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C952BF23FCBC200053F435 /* Resource.swift */; };
+		24C952C223FCBC4C0053F435 /* Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C952C123FCBC4C0053F435 /* Sections.swift */; };
+		24C952C423FCBCA20053F435 /* ResourceRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C952C323FCBCA20053F435 /* ResourceRealmData.swift */; };
+		24CC51BF2418144100F78EAC /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC51BE2418144100F78EAC /* NewTaskViewController.swift */; };
+		24CD68F823DD18A1001F72DE /* SectionsOfMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD68F723DD18A1001F72DE /* SectionsOfMessages.swift */; };
+		24CD68FC23E2453B001F72DE /* Consultation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD68FB23E2453B001F72DE /* Consultation.swift */; };
+		24E48B0D2405AC740094B873 /* AvatarCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E48B0B2405AC740094B873 /* AvatarCollectionViewController.swift */; };
+		24E48B0E2405AC740094B873 /* AvatarCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E48B0C2405AC740094B873 /* AvatarCollectionCell.xib */; };
+		24E48B102405AC8F0094B873 /* AvatarCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E48B0F2405AC8F0094B873 /* AvatarCollectionCell.swift */; };
+		24E81AC623F4EEA300F21191 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E81AC523F4EEA300F21191 /* PushNotificationSender.swift */; };
+		24E81AC823F6005100F21191 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E81AC723F6005100F21191 /* PushNotificationManager.swift */; };
+		24E81ACA23F7496300F21191 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E81AC923F7496300F21191 /* StoreKit.framework */; };
+		24F2B83823BA9FD5001B3101 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F2B83723BA9FD5001B3101 /* TaskTableViewController.swift */; };
+		24F2B83A23BAA0C4001B3101 /* Planner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F2B83923BAA0C4001B3101 /* Planner.swift */; };
+		24F2B83C23BAA0D3001B3101 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F2B83B23BAA0D3001B3101 /* Tasks.swift */; };
+		24F2B83E23BBC647001B3101 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F2B83D23BBC647001B3101 /* SwipeTableViewController.swift */; };
+		24F2B84223BEA9CF001B3101 /* ClassRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F2B84123BEA9CF001B3101 /* ClassRegisterViewController.swift */; };
+		24F2B84423BEAA27001B3101 /* ScholarshipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F2B84323BEAA27001B3101 /* ScholarshipsViewController.swift */; };
+		24F2B84623BEAA5C001B3101 /* ConsultationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F2B84523BEAA5C001B3101 /* ConsultationViewController.swift */; };
+		24F2B84823BEB3D5001B3101 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F2B84723BEB3D5001B3101 /* SettingsViewController.swift */; };
+		24F2B84E23C065B2001B3101 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24F2B84D23C065B2001B3101 /* GoogleService-Info.plist */; };
+		24F2B85023C3E083001B3101 /* TeacherCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F2B84F23C3E083001B3101 /* TeacherCode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		241815B223E4C69600BEDA35 /* QuizForRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizForRealm.swift; sourceTree = "<group>"; };
+		241F3C2F222C786F00E2EA5D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		241F3C31222C9FF400E2EA5D /* QuestionBankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBankViewController.swift; sourceTree = "<group>"; };
+		243104A8222A07CD0021CC3A /* Modules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modules.swift; sourceTree = "<group>"; };
+		243104AA222A07D90021CC3A /* Chapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapters.swift; sourceTree = "<group>"; };
+		24426EC8217593F500A4A466 /* VoicED College Counseling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoicED College Counseling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24426ECB217593F600A4A466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24426ECD217593F600A4A466 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		24426ED0217593F600A4A466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24426ED2217593F700A4A466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24426ED5217593F700A4A466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24426ED7217593F700A4A466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24426EE121759A4300A4A466 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		2454ED88222877FC00146EBB /* ModulesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesTableViewController.swift; sourceTree = "<group>"; };
+		2454ED8A2228781300146EBB /* ChaptersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersTableViewController.swift; sourceTree = "<group>"; };
+		2454ED8C2228793600146EBB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2454ED8E2228794E00146EBB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2454ED902228795900146EBB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2454ED922228A54200146EBB /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		246667562406E60D00583033 /* SettingsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCollectionViewController.swift; sourceTree = "<group>"; };
+		246743C221961C0500FB69A6 /* Grammar Assessment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grammar Assessment-Bridging-Header.h"; sourceTree = "<group>"; };
+		246743C421961C0600FB69A6 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		246DA79723E8A99C005732C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		246DA79923E8CC61005732C3 /* ChatValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatValidationViewController.swift; sourceTree = "<group>"; };
+		246DA79B23ECB2A2005732C3 /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		246DA79F23ECCF80005732C3 /* QuizValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizValidationViewController.swift; sourceTree = "<group>"; };
+		246DA7A123F09EE2005732C3 /* VoicED College Counseling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VoicED College Counseling.entitlements"; sourceTree = "<group>"; };
+		247C424D235E661700D18E05 /* PlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewController.swift; sourceTree = "<group>"; };
+		248625C523B6CAB2008ABBA0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		248BA3B723394B0200465D26 /* RouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteViewController.swift; sourceTree = "<group>"; };
+		248DA9D323FDEB82009C7060 /* ModuleRealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleRealmData.swift; sourceTree = "<group>"; };
+		248DA9D523FE4D97009C7060 /* ChapterRealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterRealmData.swift; sourceTree = "<group>"; };
+		249C472D2334749B00257188 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		249C473623349A6800257188 /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		249C473A2335643600257188 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		24AB73C52407330500B95D3B /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		24AB73C7240734AC00B95D3B /* ProfileRealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRealmData.swift; sourceTree = "<group>"; };
+		24AB73C92407372E00B95D3B /* Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
+		24AB73CB2407472700B95D3B /* ProfileDocViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDocViewController.swift; sourceTree = "<group>"; };
+		24B2D30723D3683D007D50FD /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		24B2D30E23D51056007D50FD /* ExportPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportPlanner.swift; sourceTree = "<group>"; };
+		24B2D31023D511DE007D50FD /* PlannerRealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerRealmData.swift; sourceTree = "<group>"; };
+		24C7A3CE240B387D005FA2CC /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		24C915C024044EFF0030FB8A /* BackgroundCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionViewController.swift; sourceTree = "<group>"; };
+		24C915C124044EFF0030FB8A /* BackgroundCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackgroundCollectionViewController.xib; sourceTree = "<group>"; };
+		24C915C424044F6D0030FB8A /* BackgroundCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundCollectionCell.swift; sourceTree = "<group>"; };
+		24C952BB23FC7BBF0053F435 /* ResourcesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesTableViewController.swift; sourceTree = "<group>"; };
+		24C952BD23FC7BD60053F435 /* SectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
+		24C952BF23FCBC200053F435 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		24C952C123FCBC4C0053F435 /* Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sections.swift; sourceTree = "<group>"; };
+		24C952C323FCBCA20053F435 /* ResourceRealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceRealmData.swift; sourceTree = "<group>"; };
+		24CC51BE2418144100F78EAC /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		24CD68F723DD18A1001F72DE /* SectionsOfMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsOfMessages.swift; sourceTree = "<group>"; };
+		24CD68FB23E2453B001F72DE /* Consultation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consultation.swift; sourceTree = "<group>"; };
+		24E48B0B2405AC740094B873 /* AvatarCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionViewController.swift; sourceTree = "<group>"; };
+		24E48B0C2405AC740094B873 /* AvatarCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvatarCollectionCell.xib; sourceTree = "<group>"; };
+		24E48B0F2405AC8F0094B873 /* AvatarCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionCell.swift; sourceTree = "<group>"; };
+		24E81AC523F4EEA300F21191 /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		24E81AC723F6005100F21191 /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		24E81AC923F7496300F21191 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		24F2B83723BA9FD5001B3101 /* TaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		24F2B83923BAA0C4001B3101 /* Planner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planner.swift; sourceTree = "<group>"; };
+		24F2B83B23BAA0D3001B3101 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		24F2B83D23BBC647001B3101 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		24F2B84123BEA9CF001B3101 /* ClassRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRegisterViewController.swift; sourceTree = "<group>"; };
+		24F2B84323BEAA27001B3101 /* ScholarshipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarshipsViewController.swift; sourceTree = "<group>"; };
+		24F2B84523BEAA5C001B3101 /* ConsultationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultationViewController.swift; sourceTree = "<group>"; };
+		24F2B84723BEB3D5001B3101 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		24F2B84D23C065B2001B3101 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24F2B84F23C3E083001B3101 /* TeacherCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCode.swift; sourceTree = "<group>"; };
+		28608B9C40134EE0D2FC64A0 /* Pods_VoicED_College_Counseling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoicED_College_Counseling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E065C0C1F2FD1AD75DE4566 /* Pods-VoicED College Counseling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoicED College Counseling.debug.xcconfig"; path = "Target Support Files/Pods-VoicED College Counseling/Pods-VoicED College Counseling.debug.xcconfig"; sourceTree = "<group>"; };
+		AC58B2FAD1559909C4A759B5 /* Pods-VoicED College Counseling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoicED College Counseling.release.xcconfig"; path = "Target Support Files/Pods-VoicED College Counseling/Pods-VoicED College Counseling.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24426EC5217593F500A4A466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E81ACA23F7496300F21191 /* StoreKit.framework in Frameworks */,
+				24B2D30923D369F6007D50FD /* LocalAuthentication.framework in Frameworks */,
+				2464D7351D30490822BB06E1 /* Pods_VoicED_College_Counseling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24426EBF217593F500A4A466 = {
+			isa = PBXGroup;
+			children = (
+				246DA79723E8A99C005732C3 /* Default-568h@2x.png */,
+				24426ECA217593F500A4A466 /* VoicED College Counseling */,
+				24426EC9217593F500A4A466 /* Products */,
+				3BAEA2BB32704A885EDA16D8 /* Frameworks */,
+				587A0D4B6AB15D7926A016E0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		24426EC9217593F500A4A466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24426EC8217593F500A4A466 /* VoicED College Counseling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24426ECA217593F500A4A466 /* VoicED College Counseling */ = {
+			isa = PBXGroup;
+			children = (
+				246DA7A123F09EE2005732C3 /* VoicED College Counseling.entitlements */,
+				24426EDD2175959700A4A466 /* Model */,
+				24426EDE217595DC00A4A466 /* View */,
+				249C472F233498E800257188 /* Custom Cell */,
+				24426EDF217595E100A4A466 /* Controller */,
+				24426EE02175961100A4A466 /* Supporting Files */,
+			);
+			path = "VoicED College Counseling";
+			sourceTree = "<group>";
+		};
+		24426EDD2175959700A4A466 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24426EE121759A4300A4A466 /* Quiz.swift */,
+				243104A8222A07CD0021CC3A /* Modules.swift */,
+				243104AA222A07D90021CC3A /* Chapters.swift */,
+				241F3C2F222C786F00E2EA5D /* User.swift */,
+				249C473A2335643600257188 /* Message.swift */,
+				24F2B83923BAA0C4001B3101 /* Planner.swift */,
+				24F2B83B23BAA0D3001B3101 /* Tasks.swift */,
+				24F2B84F23C3E083001B3101 /* TeacherCode.swift */,
+				24B2D30E23D51056007D50FD /* ExportPlanner.swift */,
+				24B2D31023D511DE007D50FD /* PlannerRealmData.swift */,
+				24CD68F723DD18A1001F72DE /* SectionsOfMessages.swift */,
+				24CD68FB23E2453B001F72DE /* Consultation.swift */,
+				241815B223E4C69600BEDA35 /* QuizForRealm.swift */,
+				246DA79B23ECB2A2005732C3 /* KeyChainService.swift */,
+				24C952BF23FCBC200053F435 /* Resource.swift */,
+				24C952C123FCBC4C0053F435 /* Sections.swift */,
+				24C952C323FCBCA20053F435 /* ResourceRealmData.swift */,
+				248DA9D323FDEB82009C7060 /* ModuleRealmData.swift */,
+				248DA9D523FE4D97009C7060 /* ChapterRealmData.swift */,
+				24AB73C7240734AC00B95D3B /* ProfileRealmData.swift */,
+				24AB73C92407372E00B95D3B /* Profiles.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24426EDE217595DC00A4A466 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24426ED2217593F700A4A466 /* Assets.xcassets */,
+				24426ECF217593F600A4A466 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24426EDF217595E100A4A466 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24426ECB217593F600A4A466 /* AppDelegate.swift */,
+				248625C523B6CAB2008ABBA0 /* Constants.swift */,
+				248BA3B723394B0200465D26 /* RouletteViewController.swift */,
+				2454ED88222877FC00146EBB /* ModulesTableViewController.swift */,
+				2454ED8A2228781300146EBB /* ChaptersTableViewController.swift */,
+				24426ECD217593F600A4A466 /* QuestionViewController.swift */,
+				241F3C31222C9FF400E2EA5D /* QuestionBankViewController.swift */,
+				246DA79F23ECCF80005732C3 /* QuizValidationViewController.swift */,
+				24C7A3CE240B387D005FA2CC /* PopUpViewController.swift */,
+				2454ED8C2228793600146EBB /* WelcomeViewController.swift */,
+				2454ED8E2228794E00146EBB /* LoginViewController.swift */,
+				2454ED902228795900146EBB /* RegisterViewController.swift */,
+				24E48B0B2405AC740094B873 /* AvatarCollectionViewController.swift */,
+				2454ED922228A54200146EBB /* AdminViewController.swift */,
+				249C472D2334749B00257188 /* ChatViewController.swift */,
+				246DA79923E8CC61005732C3 /* ChatValidationViewController.swift */,
+				24C915C024044EFF0030FB8A /* BackgroundCollectionViewController.swift */,
+				24F2B84723BEB3D5001B3101 /* SettingsViewController.swift */,
+				246667562406E60D00583033 /* SettingsCollectionViewController.swift */,
+				247C424D235E661700D18E05 /* PlannerViewController.swift */,
+				24F2B83723BA9FD5001B3101 /* TaskTableViewController.swift */,
+				24CC51BE2418144100F78EAC /* NewTaskViewController.swift */,
+				24F2B83D23BBC647001B3101 /* SwipeTableViewController.swift */,
+				24F2B84123BEA9CF001B3101 /* ClassRegisterViewController.swift */,
+				24F2B84323BEAA27001B3101 /* ScholarshipsViewController.swift */,
+				24F2B84523BEAA5C001B3101 /* ConsultationViewController.swift */,
+				24C952BB23FC7BBF0053F435 /* ResourcesTableViewController.swift */,
+				24C952BD23FC7BD60053F435 /* SectionsViewController.swift */,
+				24AB73C52407330500B95D3B /* ProfileTableViewController.swift */,
+				24AB73CB2407472700B95D3B /* ProfileDocViewController.swift */,
+				24E81AC523F4EEA300F21191 /* PushNotificationSender.swift */,
+				24E81AC723F6005100F21191 /* PushNotificationManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24426EE02175961100A4A466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				246743C421961C0600FB69A6 /* ProgressHUD.bundle */,
+				24426ED7217593F700A4A466 /* Info.plist */,
+				24F2B84D23C065B2001B3101 /* GoogleService-Info.plist */,
+				24426ED4217593F700A4A466 /* LaunchScreen.storyboard */,
+				246743C221961C0500FB69A6 /* Grammar Assessment-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		249C472F233498E800257188 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				249C473623349A6800257188 /* CustomMessageCell.swift */,
+				24C915C124044EFF0030FB8A /* BackgroundCollectionViewController.xib */,
+				24C915C424044F6D0030FB8A /* BackgroundCollectionCell.swift */,
+				24E48B0C2405AC740094B873 /* AvatarCollectionCell.xib */,
+				24E48B0F2405AC8F0094B873 /* AvatarCollectionCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		3BAEA2BB32704A885EDA16D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E81AC923F7496300F21191 /* StoreKit.framework */,
+				24B2D30723D3683D007D50FD /* LocalAuthentication.framework */,
+				28608B9C40134EE0D2FC64A0 /* Pods_VoicED_College_Counseling.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		587A0D4B6AB15D7926A016E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E065C0C1F2FD1AD75DE4566 /* Pods-VoicED College Counseling.debug.xcconfig */,
+				AC58B2FAD1559909C4A759B5 /* Pods-VoicED College Counseling.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24426EC7217593F500A4A466 /* VoicED College Counseling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24426EDA217593F700A4A466 /* Build configuration list for PBXNativeTarget "VoicED College Counseling" */;
+			buildPhases = (
+				67E271B3666D2F267B0EBD65 /* [CP] Check Pods Manifest.lock */,
+				24426EC4217593F500A4A466 /* Sources */,
+				24426EC5217593F500A4A466 /* Frameworks */,
+				24426EC6217593F500A4A466 /* Resources */,
+				2ED8E986CCC70CEB1E006322 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VoicED College Counseling";
+			productName = "Grammar Assessment";
+			productReference = 24426EC8217593F500A4A466 /* VoicED College Counseling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24426EC0217593F500A4A466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Arun Narayanan";
+				TargetAttributes = {
+					24426EC7217593F500A4A466 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 24426EC3217593F500A4A466 /* Build configuration list for PBXProject "VoicED College Counseling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24426EBF217593F500A4A466;
+			productRefGroup = 24426EC9217593F500A4A466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24426EC7217593F500A4A466 /* VoicED College Counseling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24426EC6217593F500A4A466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246743C621961C0600FB69A6 /* ProgressHUD.bundle in Resources */,
+				24E48B0E2405AC740094B873 /* AvatarCollectionCell.xib in Resources */,
+				24426ED6217593F700A4A466 /* LaunchScreen.storyboard in Resources */,
+				24426ED3217593F700A4A466 /* Assets.xcassets in Resources */,
+				24426ED1217593F600A4A466 /* Main.storyboard in Resources */,
+				24F2B84E23C065B2001B3101 /* GoogleService-Info.plist in Resources */,
+				246DA79823E8A99C005732C3 /* Default-568h@2x.png in Resources */,
+				24C915C324044EFF0030FB8A /* BackgroundCollectionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED8E986CCC70CEB1E006322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoicED College Counseling/Pods-VoicED College Counseling-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoicED College Counseling/Pods-VoicED College Counseling-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoicED College Counseling/Pods-VoicED College Counseling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E271B3666D2F267B0EBD65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoicED College Counseling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24426EC4217593F500A4A466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B2D30F23D51056007D50FD /* ExportPlanner.swift in Sources */,
+				24C952C223FCBC4C0053F435 /* Sections.swift in Sources */,
+				24F2B84623BEAA5C001B3101 /* ConsultationViewController.swift in Sources */,
+				249C473823349A6800257188 /* CustomMessageCell.swift in Sources */,
+				24C952C423FCBCA20053F435 /* ResourceRealmData.swift in Sources */,
+				24AB73CA2407372E00B95D3B /* Profiles.swift in Sources */,
+				24F2B84423BEAA27001B3101 /* ScholarshipsViewController.swift in Sources */,
+				24CD68FC23E2453B001F72DE /* Consultation.swift in Sources */,
+				24E81AC623F4EEA300F21191 /* PushNotificationSender.swift in Sources */,
+				246DA7A023ECCF80005732C3 /* QuizValidationViewController.swift in Sources */,
+				24F2B84223BEA9CF001B3101 /* ClassRegisterViewController.swift in Sources */,
+				243104A9222A07CD0021CC3A /* Modules.swift in Sources */,
+				24C915C224044EFF0030FB8A /* BackgroundCollectionViewController.swift in Sources */,
+				248BA3B823394B0200465D26 /* RouletteViewController.swift in Sources */,
+				24AB73C8240734AC00B95D3B /* ProfileRealmData.swift in Sources */,
+				2454ED932228A54200146EBB /* AdminViewController.swift in Sources */,
+				24C915C524044F6D0030FB8A /* BackgroundCollectionCell.swift in Sources */,
+				248625C623B6CAB2008ABBA0 /* Constants.swift in Sources */,
+				2454ED8F2228794E00146EBB /* LoginViewController.swift in Sources */,
+				241815B323E4C69600BEDA35 /* QuizForRealm.swift in Sources */,
+				24E81AC823F6005100F21191 /* PushNotificationManager.swift in Sources */,
+				24F2B85023C3E083001B3101 /* TeacherCode.swift in Sources */,
+				2454ED912228795900146EBB /* RegisterViewController.swift in Sources */,
+				24F2B83C23BAA0D3001B3101 /* Tasks.swift in Sources */,
+				249C473B2335643600257188 /* Message.swift in Sources */,
+				24C7A3CF240B387D005FA2CC /* PopUpViewController.swift in Sources */,
+				2454ED89222877FC00146EBB /* ModulesTableViewController.swift in Sources */,
+				24AB73C62407330500B95D3B /* ProfileTableViewController.swift in Sources */,
+				24CD68F823DD18A1001F72DE /* SectionsOfMessages.swift in Sources */,
+				24C952BC23FC7BBF0053F435 /* ResourcesTableViewController.swift in Sources */,
+				24F2B83E23BBC647001B3101 /* SwipeTableViewController.swift in Sources */,
+				2454ED8D2228793600146EBB /* WelcomeViewController.swift in Sources */,
+				246DA79C23ECB2A2005732C3 /* KeyChainService.swift in Sources */,
+				241F3C30222C786F00E2EA5D /* User.swift in Sources */,
+				246DA79A23E8CC61005732C3 /* ChatValidationViewController.swift in Sources */,
+				2454ED8B2228781300146EBB /* ChaptersTableViewController.swift in Sources */,
+				243104AB222A07D90021CC3A /* Chapters.swift in Sources */,
+				24F2B83A23BAA0C4001B3101 /* Planner.swift in Sources */,
+				249C472E2334749B00257188 /* ChatViewController.swift in Sources */,
+				248DA9D423FDEB82009C7060 /* ModuleRealmData.swift in Sources */,
+				24426ECE217593F600A4A466 /* QuestionViewController.swift in Sources */,
+				246667572406E60D00583033 /* SettingsCollectionViewController.swift in Sources */,
+				24C952C023FCBC200053F435 /* Resource.swift in Sources */,
+				24F2B83823BA9FD5001B3101 /* TaskTableViewController.swift in Sources */,
+				24C952BE23FC7BD60053F435 /* SectionsViewController.swift in Sources */,
+				24B2D31123D511DE007D50FD /* PlannerRealmData.swift in Sources */,
+				24E48B0D2405AC740094B873 /* AvatarCollectionViewController.swift in Sources */,
+				24F2B84823BEB3D5001B3101 /* SettingsViewController.swift in Sources */,
+				247C424E235E661700D18E05 /* PlannerViewController.swift in Sources */,
+				24E48B102405AC8F0094B873 /* AvatarCollectionCell.swift in Sources */,
+				24CC51BF2418144100F78EAC /* NewTaskViewController.swift in Sources */,
+				24AB73CC2407472700B95D3B /* ProfileDocViewController.swift in Sources */,
+				241F3C32222C9FF400E2EA5D /* QuestionBankViewController.swift in Sources */,
+				24426ECC217593F600A4A466 /* AppDelegate.swift in Sources */,
+				24426EE221759A4300A4A466 /* Quiz.swift in Sources */,
+				248DA9D623FE4D97009C7060 /* ChapterRealmData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24426ECF217593F600A4A466 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24426ED0217593F600A4A466 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24426ED4217593F700A4A466 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24426ED5217593F700A4A466 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24426ED8217593F700A4A466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24426ED9217593F700A4A466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24426EDB217593F700A4A466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E065C0C1F2FD1AD75DE4566 /* Pods-VoicED College Counseling.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "VoicED College Counseling/VoicED College Counseling.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 9S79H34KNB;
+				INFOPLIST_FILE = "$(SRCROOT)/VoicED College Counseling/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.voiced.CollegeConsulting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoicED College Counseling/Supporting Files/VoicED College Counseling-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		24426EDC217593F700A4A466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC58B2FAD1559909C4A759B5 /* Pods-VoicED College Counseling.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "VoicED College Counseling/VoicED College Counseling.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 9S79H34KNB;
+				INFOPLIST_FILE = "$(SRCROOT)/VoicED College Counseling/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.voiced.CollegeConsulting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoicED College Counseling/Supporting Files/VoicED College Counseling-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24426EC3217593F500A4A466 /* Build configuration list for PBXProject "VoicED College Counseling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24426ED8217593F700A4A466 /* Debug */,
+				24426ED9217593F700A4A466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24426EDA217593F700A4A466 /* Build configuration list for PBXNativeTarget "VoicED College Counseling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24426EDB217593F700A4A466 /* Debug */,
+				24426EDC217593F700A4A466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24426EC0217593F500A4A466 /* Project object */;
+}
